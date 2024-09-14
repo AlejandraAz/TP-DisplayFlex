@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    background-size: 400%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.error-page {
+    position: absolute;
+    top: 10%;
+    right: 17%;
+    left: 17%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,0.2);
+    box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.7);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+}
+.error-page .content {
+    max-width: 600px;
+    text-align: center;
+}
+.content h1 {
+    font-size: 18vw;
+    line-height: 1em;
+    font-weight: 700;
+    position: relative;
+
+}
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 600px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.content .error {
+    
+    max-width: 600px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(150, 17, 17);
+}
+
+.content h1::after{
+    position: absolute;
+    content:attr(data-text);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-repeating-linear-gradient(-45deg,#71b7e6,#69a6ce,#b98acc,#e47367,#b98acc,#69a6ce,#9b59b6); 
+    background-size: 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.25);
+    animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    25%{
+        background-position: 100% 0;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    75%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+.content h4 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 600px;
+    position: relative;
+}
+.content h4::after{
+    position: absolute;
+    content:attr(data-text);
+    top: 0;
+    left: 0;
+    right: 0; 
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+.btn-inicio{
+    background-color: #2618e2;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+.content p {
+    font-size: 1.2em;
+    color: #0d0d0d;
+    margin-bottom: 30px;
+}
+
+/* fin de hojas de estilo 404 */
