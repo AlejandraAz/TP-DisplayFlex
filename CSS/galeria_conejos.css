@@ -36,6 +36,9 @@ body {
     position: absolute;
     top: 80px;
     left: 0;
+    background: #134E5E;  
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  
+    background: linear-gradient(to right, #71B280, #134E5E); 
     display: flex;
     flex-direction: column;
     gap: 3rem;
