@@ -12,7 +12,9 @@ body {
 
 /****Estilos del navbar *****/
 .header {
-    background-color: #1879d4;
+    background: #134E5E;  
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  
+    background: linear-gradient(to right, #71B280, #134E5E); 
     height: 80px;
 }
 
@@ -34,7 +36,6 @@ body {
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: #1879d4;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -113,14 +114,16 @@ body {
 }
 
 .ul_list li a:hover {
-    background-color: #7eb0df;
+    background-color:  #71B280;
     color: #333;
 }
 
 
 /* **** Pie de página*/
 footer {
-    background-color: #1879d4;
+    background: #134E5E;  
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  
+    background: linear-gradient(to right, #71B280, #134E5E); 
     padding: 20px;
     margin-top: 40px;
 }

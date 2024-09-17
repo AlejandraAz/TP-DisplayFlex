@@ -1,2 +1,2 @@
-# Trabajo Práctico de la materia proyecto Integrador ,utilizando unicamente flexbox y media queries.
+# Trabajo Práctico de la materia proyecto Integrador ,utilizando unicamente flexbox y media queries.Ademas se trabajo con google fonts para la tipografía,íconos de bootstrap para añadirlo en el btn de tope y ui gradients para el color del nav y footer.
 La temática del sitio es sobre el cuidado responsable de conejos, tener en cuenta sus cuidados antes de decidir adoptar uno, o si ya lo tienes recomendaciones de Copito y sus amigos, otros conejos que te invitan a conocer mas sobre sus necesidades. 
